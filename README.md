@@ -14,6 +14,8 @@ Resumidamente, as especificações determinam que:
 
 Não foi feita qualquer especificação adicional quanto à interface ou diálogos do programa, interação com o usuário, ou tratamento de exceções. O programa irá, contudo, verificar se o diretório *arquivos* contém algum arquivo classificável, e, em caso negativo, encerrará "graciosamente".
 
+Não foram feitas especificações quanto à compatibilidade com sistemas operacionais ou sistemas de arquivos específicos, nem com versões específicas do interpretador Python e seus componentes. O programa foi elaborado usando *Python 3.9.13 (Anaconda)*, em ambiente Linux. Em princípio, as funções usadas na criação dos caminhos (para diretórios e arquivos) usados pelo programa devem torná-lo compatível também com Windows e MacOS.
+
 Como a tarefa é bastante simples, foram incluídos alguns diálogos com o usuário - até para viabilizar melhor a modularização.
 
 Para fins de modularização, optou-se pela classificação básica de módulos proposta em aula, de acordo com os seguintes critérios:
@@ -28,3 +30,5 @@ Para fins de modularização, optou-se pela classificação básica de módulos 
 - Saída: funções que "produzam informações".
   - Criação de diretórios.
   - Exibição de diálogos e itens da interface.
+
+Para executar o programa, baixe o conteúdo deste repositório para um diretório em seu computador, e execute `python organizador.py`, ou o comando equivalente para o seu ambiente.

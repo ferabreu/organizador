@@ -31,4 +31,6 @@ Para fins de modularização, optou-se pela classificação básica de módulos 
   - Criação de diretórios.
   - Exibição de diálogos e itens da interface.
 
+O programa contém código reproduzido do artigo [Your Guide to the Python print() Function](https://realpython.com/python-print), disponível na Web: a função *saida.progress*, proposta e explicada [neste trecho do artigo](https://realpython.com/python-print/#living-it-up-with-cool-animations). Basicamente, ela exibe uma barra de progresso tipo "0 - 100%" antes da execução das tarefas de alteração do sistema de arquivos. Não é nada essencial para o programa, e sua ausência não comprometeria sua execução de forma alguma.
+
 Para executar o programa, baixe o conteúdo deste repositório para um diretório em seu computador, e execute `python organizador.py`, ou o comando equivalente para o seu ambiente.

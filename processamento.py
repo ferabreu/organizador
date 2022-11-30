@@ -4,7 +4,7 @@ Modulo: Processamento
 Requisito: funcoes de processamento - manipulam os dados recebidos
 Autor: Fernando Mees
 Data: 28/11/2022
-Versao: 0.1
+Versao: 2.0
 """
 
 import os
@@ -23,4 +23,3 @@ def classificar_arquivos(dir_arquivos: str, lista_arquivos: list,
             shutil.move(arquivo_caminho, dir_tipos[1])
         else:
             break
-

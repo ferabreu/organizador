@@ -4,7 +4,7 @@ Modulo: Entrada
 Requisito: funcoes de entrada - fornecem dados ao programa.
 Autor: Fernando Mees
 Data: 28/11/2022
-Versao: 0.1
+Versao: 2.0
 """
 
 import os

@@ -1,5 +1,5 @@
 # Organizador
-Projeto final de avaliacao do *Curso de Introducao a Programacao com Python para Controle Externo*, ministrado pelo Prof. Nelson S. dos Santos em novembro de 2022, através da plataforma de aprendizagem remota da Universidade Federal do Rio Grande do Sul.
+Projeto final de avaliacao do *Curso de Introdução a Programação com Python para Controle Externo*, ministrado pelo Prof. Nelson S. dos Santos em novembro de 2022, através da plataforma de aprendizagem remota da Universidade Federal do Rio Grande do Sul.
 
 Este programa, elaborado pelo aluno **Fernando Mees Abreu**, atende às especificações propostas para o projeto, nos termos do arquivo *ProjetoFinal.pdf*, incluído neste repositório.
 

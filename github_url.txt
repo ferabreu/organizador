@@ -1,0 +1,3 @@
+Endereços do repositório no GitHub:
+https://github.com/ferabreu/organizador
+https://github.com/ferabreu/organizador.git

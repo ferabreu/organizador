@@ -4,7 +4,7 @@ Modulo: Saida
 Requisito: funcoes de saida - mensagens para o usuario.
 Autor: Fernando Mees
 Data: 28/11/2022
-Versao: 0.1
+Versao: 2.0
 """
 
 import os
@@ -23,6 +23,9 @@ def tela_conclusao():
 def tela_encerramento():
     print('\nPrograma encerrado.\n')
 
+def tela_lista_vazia():
+    print('\nNão há arquivos para mover.')
+
 # A funcao "progress" foi copiada da URL abaixo.
 # https://realpython.com/python-print/#living-it-up-with-cool-animations
 # Ela nao e essencial para o programa, e nao contraria
@@ -33,4 +36,3 @@ def progress(percent=0, width=63):
     print('\r[', '#' * left, ' ' * right, ']',
           f' {percent:.0f}%',
           sep='', end='', flush=True)
-

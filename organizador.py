@@ -4,7 +4,7 @@ Requisito: Programa que organiza uma lista de arquivos nas pastas
 'planilhas' e 'documentos', de acordo com a extensao do arquivo.
 Autor: Fernando Mees
 Data: 28/11/2022
-Versao: 0.1
+Versao: 2.0
 """
 
 import entrada
@@ -25,19 +25,22 @@ def main():
     # Busca os arquivos a classificar
     lista_arquivos = entrada.buscar_arquivos(dir_arquivos)
     
-    # Exibe uma barra animada de progresso
-    entrada.barra_progresso()
+    if len(lista_arquivos) > 0:
+        # Exibe uma barra animada de progresso
+        entrada.barra_progresso()
+            
+        # Cria os diretorios de destino
+        saida.criar_diretorios(dir_tipos)
         
-    # Cria os diretorios de destino
-    saida.criar_diretorios(dir_tipos)
-    
-    # Move os arquivos para os diretorios, classificando por extensao
-    processamento.classificar_arquivos(dir_arquivos, lista_arquivos,
-                                       ext_tipos, dir_tipos)
-    
-    # Exibe as mensagens de encerramento
-    saida.tela_conclusao()
+        # Move os arquivos para os diretorios, classificando por extensao
+        processamento.classificar_arquivos(dir_arquivos, lista_arquivos,
+                                           ext_tipos, dir_tipos)
+        
+        # Exibe as mensagens de encerramento
+        saida.tela_conclusao()
+    else:
+        saida.tela_lista_vazia()
+        saida.tela_encerramento()
 
 if __name__ == "__main__":
     main()
-
